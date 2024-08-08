@@ -38,3 +38,10 @@ aria2c -c -x 16 -s 16 "https://civitai.com/api/download/models/20068" -o "stable
 
 #####################
 # Extensions
+
+
+
+
+
+# Start up
+sudo bash stable-diffusion-webui/webui.sh
