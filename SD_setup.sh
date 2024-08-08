@@ -5,9 +5,6 @@ sudo apt update && sudo apt -y upgrade
 # Clone repo (SD webui)
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
-# Start-up to install requirments
-stable-diffusion-webui/webui.sh
-
 # Add args in webui-user.sh
 # "--listen" for port forwarding
 # "--port xxxx" for specific port
@@ -46,5 +43,4 @@ aria2c -c -x 16 -s 16 "https://civitai.com/api/download/models/20068" -o "stable
 
 
 ########################################## Start-up
-#stable-diffusion-webui/webui.sh
-#python3 stable-diffusion-webui/launch.py
+stable-diffusion-webui/webui.sh
