@@ -6,7 +6,7 @@ sudo apt update && sudo apt -y upgrade
 git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
 
 # Start-up to install requirments
-sudo bash stable-diffusion-webui/webui.sh
+stable-diffusion-webui/webui.sh
 
 # Add args in webui-user.sh
 # "--listen" for port forwarding
